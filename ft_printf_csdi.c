@@ -45,5 +45,6 @@ int	ft_print_int(int i)
 	len = 0;
 	num = ft_itoa(i);
 	len = ft_print_str(num);
+	free (num);
 	return (len);
 }
